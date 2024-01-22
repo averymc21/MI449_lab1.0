@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: beige;
+    background-color: darkgrey;
 }
 
 header {
@@ -11,11 +11,17 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
-    background-color: lightcoral;
+    background-color:lightgray;
 }
 
 h1 {
     margin-bottom: 10px;
+}
+
+h2 {
+    background-color: aliceblue;
+    border: 3px solid lime;
+
 }
 
 nav {
@@ -52,5 +58,5 @@ img {
 }
 
 img.active {
-    border: 10px solid purple;
+    border: 10px solid lime;
 }
